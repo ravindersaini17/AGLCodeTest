@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AGL.CodeExercise.Common\AGL.CodeExercise.Common.csproj" />
+    <ProjectReference Include="..\AGL.CodeExercise.Services\AGL.CodeExercise.Services.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ServiceManagers\" />
+  </ItemGroup>
+</Project>
